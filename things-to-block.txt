@@ -1,0 +1,28 @@
+! Title: Boneless' Block content
+! Description: It's a list of ad's that I don't want
+||fundingchoicesmessages.google.com^$important
+||video.primis.tech^$important
+||live.primis.tech^$important
+||kumo.network-n.com^$important
+||sdk.mrf.io^$important
+||mrf.io^$important
+||sentry.any.run^$important
+||owa.any.run^$important
+||cloud.axiom.co^$important
+||axiom.co^$important
+||vercel-vitals.axiom.co^$important
+||status.axiom.co^$important
+||www.axiom.co^$important
+||resources.bazaarvoice.com^$important
+||apps.bazaarvoice.com^$important
+||bazaarvoice.com^$important
+||*.zipmoney.com.au^$important
+||zipmoney.com.au^$important
+||account.zipmoney.com.au^$important
+||api.zipmoney.com.au^$important
+||static.zipmoney.com.au^$important
+||leap.yotpo.com^$important
+||www.yotpo.com^$important
+||staticw2.yotpo.com^$important
+||loyalty.yotpo.com^$important
+||api-cdn.yotpo.com^$important
