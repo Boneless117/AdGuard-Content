@@ -26,3 +26,89 @@
 ||staticw2.yotpo.com^$important
 ||loyalty.yotpo.com^$important
 ||api-cdn.yotpo.com^$important
+
+! 3/7/2019 https://www.mercurynews.com
+! https://www.reddit.com/r/Ubiquiti/comments/zx7vs2/comment/j21z2or/?utm_source=share&utm_medium=web2x&context=3
+||prodmg2.blob.core.windows.net/connext/upload_images/59modal_bg_800x663_MERC.jpg$image
+||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
+||youtube.com/share_ajax?action_get_share_box=1&video_id=$xmlhttprequest
+||youtube.com/annotations_invideo?$object-subrequest
+||music.youtube.com^$csp=worker-src 'none'
+||www.youtube.com^$csp=worker-src 'none'
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.playerAds)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
+youtube.com/get_endscreen?
+youtube.com##.ytp-ad-module
+youtube.com##.video-ads
+youtube.com##.ytp-title-channel
+youtube.com##.ytp-scroll-max.ytp-scroll-min.ytp-pause-overlay
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-ce-element-show
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-cards-button.ytp-button
+youtube.com##.ytp-cards-button
+youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]
+youtube.com##.video-annotations
+youtube.com##.subscribecard-endscreen
+youtube.com##.iv-promo-contents
+youtube.com##.iv-click-target.iv-promo-img
+youtube.com##.iv-click-target.branding-img
+youtube.com##.iv-click-target
+youtube.com##.html5-endscreen-content
+youtube.com##.html5-endscreen
+youtube.com##.home .branded-page-v2-secondary-col
+youtube.com##.guide-builder-v2 .branded-page-v2-secondary-col
+youtube.com##.feed .branded-page-v2-secondary-col
+youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
+youtube.com###ticker
+youtube.com###sb-button-notify
+youtube.com###page > .alerts-wrapper
+youtube.com###channel-subscription-promo-in-feed
+##.ytp-pause-overlay
+##.ytp-ce-expanding-image
+##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+##.ytp-ce-element-shadow
+##.ytp-ce-element
+##.ytp-ce-covering-overlay
+##.ytp-ce-covering-image
+! removing youtube annoyances
+www.youtube.com##.ytp-ce-covering-overlay
+www.youtube.com##.ytp-ce-element-shadow
+www.youtube.com##.ytp-ce-covering-image
+www.youtube.com##.ytp-ce-expanding-image
+www.youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+www.youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+www.youtube.com##.ytp-cards-teaser
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-cards-button
+www.youtube.com##.iv-click-target
+www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+ 
+! 6/19/2019 https://www.reddit.com
+www.reddit.com##.login-required.add.active.option
+ 
+! 6/26/2019 https://www.express.co.uk
+||cdn.images.express.co.uk/cmp-19.4.4/dx/cmpui.html$subdocument
+ 
+! 7/3/2019 https://www.thestar.co.uk
+www.thestar.co.uk##.modal-content
+
+! 2020-11-17 https://www.wikitechy.com
+www.wikitechy.com###vHYeqp0WP1abstKMPdpFJwDxGZgVnQ
+
+! 2021-08-06 https://maxroll.gg
+maxroll.gg##.rl5ptq4yvcur
+
+! 2022-01-29 https://www.teamblind.com
+www.teamblind.com##.blind_detail
